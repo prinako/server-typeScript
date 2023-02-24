@@ -1,0 +1,30 @@
+{
+  "name": "server-typescript",
+  "version": "1.0.0",
+  "description": "trying typeScript",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "/dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prinako/server-typeScript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prinako/server-typeScript/issues"
+  },
+  "homepage": "https://github.com/prinako/server-typeScript#readme",
+  "devDependencies": {
+    "@types/node": "^18.14.1",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
